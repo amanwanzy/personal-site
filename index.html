@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>个人网站 | 我的主页</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">A</span>
+        <div>
+          <p class="eyebrow">个人网站</p>
+          <h1>欢迎来到我的主页</h1>
+        </div>
+      </div>
+      <button class="theme-toggle" aria-label="切换暗黑主题">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <p class="intro-label">你好，我是</p>
+        <h2>阿德</h2>
+        <p class="intro-text">我是一名前端开发者，热爱设计与代码，专注于创建清晰、高效、响应式的网站体验。</p>
+        <div class="hero-actions">
+          <a href="#about" class="button primary">了解我</a>
+          <a href="#contact" class="button secondary">联系我</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-content">
+          <p>项目</p>
+          <h3>简洁、现代、可访问</h3>
+          <p>我的网站展示了项目、技术栈与联系方式，并支持移动端友好浏览。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-header">
+        <p class="section-label">关于我</p>
+        <h2>我是谁</h2>
+      </div>
+      <div class="grid-2">
+        <div>
+          <p>我擅长构建用户界面、交互动画以及响应式布局。我的目标是将设计与工程结合，创建既美观又稳定的网站。</p>
+          <ul class="highlights">
+            <li>前端开发：HTML、CSS、JavaScript</li>
+            <li>现代技术：React、Vue、TypeScript</li>
+            <li>用户体验：可访问性与性能优化</li>
+          </ul>
+        </div>
+        <div class="profile-card">
+          <p>技能</p>
+          <div class="skill-list">
+            <span>响应式布局</span>
+            <span>组件开发</span>
+            <span>CSS 动画</span>
+            <span>移动优先</span>
+            <span>版本控制</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-header">
+        <p class="section-label">项目展示</p>
+        <h2>近期作品</h2>
+      </div>
+      <div class="grid-3 cards">
+        <article class="card">
+          <h3>个人作品集</h3>
+          <p>现代简洁的个人品牌网站，适配多终端与高性能加载。</p>
+        </article>
+        <article class="card">
+          <h3>电商界面</h3>
+          <p>界面优化与购物流程改进，实现更流畅的用户体验。</p>
+        </article>
+        <article class="card">
+          <h3>企业官网</h3>
+          <p>为企业构建可扩展、可维护的页面结构与样式系统。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <div class="section-header">
+        <p class="section-label">联系我</p>
+        <h2>合作与咨询</h2>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <p>如果你有项目、合作或者只是想聊聊前端开发，欢迎通过以下方式联系我。</p>
+          <ul class="contact-list">
+            <li>邮箱：hello@example.com</li>
+            <li>电话：+86 123 4567 8901</li>
+            <li>地址：北京市</li>
+          </ul>
+        </div>
+        <div class="contact-card">
+          <p>快速提示</p>
+          <p>适配不同屏幕并保持访问顺畅是我的重点。网站内容可以按需替换为你的个人信息。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 阿德. 版权所有。</p>
+      <p>构建于静态页面，支持暗黑模式。</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
