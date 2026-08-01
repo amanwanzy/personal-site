@@ -19,12 +19,13 @@
 1. 在 GitHub 上创建一个新仓库，例如 `personal-site`。
 2. 将本地仓库关联到远程仓库：
    ```bash
-   git remote add origin https://github.com/<你的用户名>/personal-site.git
-   git push -u origin master
+   git remote add origin https://github.com/amanwanzy/personal-site.git
+   git push -u origin main
    ```
 3. 在 GitHub 仓库页面中，打开 `Settings` -> `Pages`。
-4. 选择 `Branch: master`，然后保存。
-5. 稍等片刻，GitHub 会生成一个访问地址。
+4. 选择 `Branch: main`，然后保存。
+5. 稍等片刻，GitHub 会生成一个访问地址，通常类似：
+   `https://amanwanzy.github.io/personal-site/`
 
 ## 本地预览
 
