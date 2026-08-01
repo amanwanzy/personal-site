@@ -13,3 +13,29 @@
 1. 将目录放入本地 web 服务器或直接在浏览器中打开 `index.html`。
 2. 修改 `index.html` 中的文本内容以替换你的个人信息。
 3. 可根据需要更改 `styles.css` 的配色与布局。
+
+## 部署到 GitHub Pages
+
+1. 在 GitHub 上创建一个新仓库，例如 `personal-site`。
+2. 将本地仓库关联到远程仓库：
+   ```bash
+   git remote add origin https://github.com/<你的用户名>/personal-site.git
+   git push -u origin master
+   ```
+3. 在 GitHub 仓库页面中，打开 `Settings` -> `Pages`。
+4. 选择 `Branch: master`，然后保存。
+5. 稍等片刻，GitHub 会生成一个访问地址。
+
+## 本地预览
+
+如果你只是想本地查看网站，可在项目目录运行：
+
+```bash
+python -m http.server 8000
+```
+
+然后访问：
+
+```
+http://localhost:8000
+```
